@@ -14,3 +14,18 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.btn-styling(@width; @style; @color) {
+    border: @width @style @color;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 1.5% 4%;
+    cursor: pointer;
+
+    &:hover {
+        background-color: gray;
+        color: black;
+    }
+}
