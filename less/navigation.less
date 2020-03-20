@@ -1,1 +1,32 @@
 // Navigation code here
+
+nav {
+    .nav-styling();
+    background-color: @nav-bg;
+    margin: 1% 0 0 0;
+
+    @media @phone {
+        margin: 1% 1%;
+    }    
+
+    .navbarlinks {
+        .navlinks-styling();
+        @media @phone {
+            width: 80%;
+        }
+    }
+
+    //navbarlinks ends
+
+    a {
+        padding: 1% 1% 0 1%;
+        text-decoration: none;
+        color: @ebony-clay;
+        font-size: 15px;
+    }
+
+    //a less ends
+
+}
+
+//nav less ends
