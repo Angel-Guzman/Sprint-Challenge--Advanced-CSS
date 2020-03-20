@@ -3,9 +3,17 @@
 nav {
     .nav-styling();
     background-color: @nav-bg;
+    margin: 1% 0 0 0;
 
+    @media @phone {
+        margin: 1% 1%;
+    }    
+    
     .navbarlinks {
         .navlinks-styling();
+        @media @phone {
+            width: 80%;
+        }
     }
 
     //navbarlinks ends
