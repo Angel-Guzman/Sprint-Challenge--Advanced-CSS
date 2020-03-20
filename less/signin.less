@@ -1,0 +1,38 @@
+.sub {
+
+    .subscription {
+        .flex-column();
+        margin: 2% 0;
+
+        @media @phone {
+            width: 100%;
+            h2 {
+                flex-direction: row;
+                font-size: 2rem;
+            }
+            span {
+                display: none;
+            }
+        }
+    }
+
+    .spacepaper img {
+        .smooth-edge();
+        width: 100%;
+    }
+
+    form {
+        .flex-column();
+        .smooth-edge();
+        width: 40%;
+        background-color: @wild-sand;
+    }
+
+    ::placeholder {
+        color: lightgray;
+        text-align: center;
+    }
+
+}
+
+//signin page ends
